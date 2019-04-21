@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -29,6 +30,7 @@
             
             @yield('table')
       
+            <div>&copy; Copyright Manish Maharjan, All Rights Reserved</div>
 
         </div>
         
