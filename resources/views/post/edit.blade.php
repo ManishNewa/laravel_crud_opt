@@ -10,7 +10,7 @@
 @endsection
 
 @section('form')
-    <div class="col-md-3">
+    <div>
         <h3 class="col-sm-12 text-center">Update post</h3>
         <form action = "/update/{{$post->id}}" method = "get">  
             <input type = "hidden" name = "_token" value = "<?php echo csrf_token(); ?>">

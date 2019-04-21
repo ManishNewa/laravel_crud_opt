@@ -21,22 +21,13 @@
                 <span class="text-warning font-weight-bold">Laravel</span>
                 <span class="text-white font-weight-bold">CRUD Operations</span>
                 </h2>                
-            </div>
-            
-            @yield('form')
-          
-            <div class="col-md-2"></div>
-
-            
-            @yield('table')
-      
-            <div>&copy; Copyright Manish Maharjan, All Rights Reserved</div>
-
-        </div>
-        
+            </div>            
+            @yield('form')        
+                       
+            @yield('table')      
+            <div class="col-md-12 text-center">&copy; Copyright Manish Maharjan, All Rights Reserved</div>
+        </div>        
     </div>
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
