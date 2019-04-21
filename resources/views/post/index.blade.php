@@ -21,9 +21,9 @@
         </form>
     </div>
     
+    <div class="col-md-2"></div>  
 @endsection
-
-<div class="col-md-2"></div>   
+ 
 @section('table')
 <div  class="col-md-5">
     <h3 class="col-sm-12 text-center">Posts from database</h3>
